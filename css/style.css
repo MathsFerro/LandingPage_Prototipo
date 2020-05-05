@@ -28,7 +28,7 @@ section.container-nav-menu{
 }
 
 .img-logo::before{
-    content: '\f121';
+    content: '\f015';
     font-family: fontAwesome;
     font-size: 25px;
     font-weight: bold;
@@ -36,9 +36,10 @@ section.container-nav-menu{
     color: black;
 
     background-color: white;
-    box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.2);
     padding: 10px;
     border-radius: 100%;
+    border: 1px solid black;
 }
 
 
@@ -72,14 +73,10 @@ nav.nav-menu-principal ul li a:hover{
 }
 
 
-video{
-    width: 100px;  
-}
 
 
 @media screen and (max-width:720px){
     .menu-toggle{
-        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -97,6 +94,7 @@ video{
         font-family: fontAwesome;
         font-size: 30px;
     }
+
     header.header-menu-principal{
         width: 100%;
         height: auto;
@@ -109,6 +107,7 @@ video{
         display: block;
 
     }
+
     .img-logo{
         float: left;
         margin-top: 28px;
@@ -126,6 +125,23 @@ video{
     nav.nav-menu-principal ul li a{
         width: 100%;
     }
+
+    section.container-menu{
+        
+    }
+
+    .video-overlay{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        opacity: .8;
+    }
+    video{
+        width: 100%; 
+   
+    }
+    
+    
 }
 
 
